@@ -105,3 +105,8 @@ ul.sublist li {
   margin-bottom: 0; /* Zet de ondermarge op 0 voor minimale ruimte */
   padding-bottom: 2px; /* Voegt een beetje ruimte toe onder elk item, pas naar wens aan */
 }
+
+a.comic-link:hover {
+  background-color: transparent; /* Verwijder de groene achtergrond */
+  color: inherit;               /* Voorkom tekstkleur verandering */
+}
